@@ -1,8 +1,10 @@
 print("Hello, world!")
 
-number = 7  # You can change this to test other values
+import random
+
+number = random.randint(1, 20)
 
 if number > 10:
-    print("Yes, the number is greater than 10.")
+    print(f"{number} is greater than 10.")
 else:
-    print("No, the number is not greater than 10.")
+    print(f"{number} is not greater than 10.")
